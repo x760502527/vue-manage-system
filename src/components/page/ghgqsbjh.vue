@@ -85,6 +85,9 @@
                 <el-form-item label="管线名称">
                     <el-input v-model="form.管线名称"></el-input>
                 </el-form-item>
+                <el-form-item label="管段">
+                    <el-input v-model="form.管段"></el-input>
+                </el-form-item>
                 <el-form-item label="起始里程">
                     <el-input v-model="form.起始里程"></el-input>
                 </el-form-item>

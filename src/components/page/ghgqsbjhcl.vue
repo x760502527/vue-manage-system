@@ -79,59 +79,62 @@
         <!-- 编辑弹出框 -->
         <el-dialog title="编辑" :visible.sync="editVisible" width="30%">
             <el-form ref="form" :model="form" label-width="140px">
-                <el-form-item label="管道名称">
-                    <el-input v-model="form.管道名称"></el-input>
+                <el-form-item label="管段编号">
+                    <el-input v-model="form.管段编号"></el-input>
                 </el-form-item>
-                <el-form-item label="所属任务">
-                    <el-input v-model="form.所属任务"></el-input>
+                <el-form-item label="管段名称">
+                    <el-input v-model="form.管段名称"></el-input>
                 </el-form-item>
-                <el-form-item label="识别时间">
-                    <el-input v-model="form.识别时间"></el-input>
+                <el-form-item label="起始里程">
+                    <el-input v-model="form.起始里程"></el-input>
                 </el-form-item>
-                <el-form-item label="识别负责人">
-                    <el-input v-model="form.识别负责人"></el-input>
+                <el-form-item label="结束里程">
+                    <el-input v-model="form.结束里程"></el-input>
                 </el-form-item>
-                <el-form-item label="管段">
-                    <el-input v-model="form.管段"></el-input>
+                <el-form-item label="高后果区长度">
+                    <el-input v-model="form.高后果区长度"></el-input>
                 </el-form-item>
-                <el-form-item label="高后果区类型">
-                    <el-input v-model="form.高后果区类型"></el-input>
+                <el-form-item label="识别日期">
+                    <el-input v-model="form.识别日期"></el-input>
                 </el-form-item>
-                <el-form-item label="分类区域">
-                    <el-input v-model="form.分类区域"></el-input>
+                <el-form-item label="HCAs总分">
+                    <el-input v-model="form.HCAs总分"></el-input>
                 </el-form-item>
-                <el-form-item label="HCAs识别评分">
-                    <table border="1" cellspacing="0" cellpadding="0" style="width: 100%">
-                        <tr>
-                            <td>1</td>
-                            <td>2</td>
-                            <td>3</td>
-                            <td>4</td>
-                            <td>5</td>
-                            <td>6</td>
-                            <td>7</td>
-                            <td>8</td>
-                            <td>总分</td>
-                        </tr>
-                        <tr style="width: 100%">
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.a" ></td>
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.b" ></td>
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.c" ></td>
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.d" ></td>
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.e" ></td>
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.f" ></td>
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.g" ></td>
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.h" ></td>
-                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.总分"></input></td>
-                        </tr>
-                    </table>
+                <el-form-item label="级别">
+                    <el-input v-model="form.级别"></el-input>
                 </el-form-item>
-                <el-form-item label="高后果区特征描述">
-                    <el-input v-model="form.高后果区特征描述"></el-input>
-                </el-form-item>
-                <el-form-item label="高后果区特征描述">
-                    <el-input v-model="form.HCAs识别分类评分说明"></el-input>
-                </el-form-item>
+<!--                <el-form-item label="HCAs识别评分">-->
+<!--                    <table border="1" cellspacing="0" cellpadding="0" style="width: 100%">-->
+<!--                        <tr>-->
+<!--                            <td>1</td>-->
+<!--                            <td>2</td>-->
+<!--                            <td>3</td>-->
+<!--                            <td>4</td>-->
+<!--                            <td>5</td>-->
+<!--                            <td>6</td>-->
+<!--                            <td>7</td>-->
+<!--                            <td>8</td>-->
+<!--                            <td>总分</td>-->
+<!--                        </tr>-->
+<!--                        <tr style="width: 100%">-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.a" ></td>-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.b" ></td>-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.c" ></td>-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.d" ></td>-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.e" ></td>-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.f" ></td>-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.g" ></td>-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.h" ></td>-->
+<!--                            <td><input style="width: calc(100% - 4px);border: none;" v-model="form.总分"></input></td>-->
+<!--                        </tr>-->
+<!--                    </table>-->
+<!--                </el-form-item>-->
+<!--                <el-form-item label="高后果区特征">-->
+<!--                    <el-input v-model="form.高后果区特征"></el-input>-->
+<!--                </el-form-item>-->
+<!--                <el-form-item label="高后果区特征描述">-->
+<!--                    <el-input v-model="form.高后果区特征描述"></el-input>-->
+<!--                </el-form-item>-->
                 <el-form-item label="备注">
                     <el-input v-model="form.备注"></el-input>
                 </el-form-item>
