@@ -44,7 +44,7 @@
                 <el-table-column prop="所属管线" label="所属管线">
                 </el-table-column>
                 <el-table-column prop="管段"  label="管段"></el-table-column>
-                <el-table-column prop="计划结束时间"  label="计划开始时间">
+                <el-table-column prop="计划开始时间"  label="计划开始时间">
                 </el-table-column>
                 <el-table-column prop="计划结束时间" label="计划结束时间"></el-table-column>
                 <el-table-column label="操作" width="180" align="center">
