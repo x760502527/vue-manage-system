@@ -1,13 +1,16 @@
 <template>
-<!--    <v-chart :options="option"/>-->
+    <div style="background: #fff;height: 100%">
+        <img src="/1.png" alt="" style="margin-top:100px;width:100%">
+    </div>
+    <!--    <v-chart :options="option"/>-->
 </template>
 
 <script>
     export default {
         name: 'ghgqfztj',
-        computed:{
-            option(){
-                return{
+        computed: {
+            option() {
+                return {
                     title: {
                         text: '极坐标双数值轴'
                     },
@@ -40,7 +43,7 @@
                         }
                     ],
                     animationDuration: 2000
-                }
+                };
             }
         }
     };
