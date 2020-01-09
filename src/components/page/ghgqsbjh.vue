@@ -39,13 +39,11 @@
                 <el-table-column prop="id" label="序号" width="60"></el-table-column>
                 <el-table-column prop="制定单位" label="制定单位"></el-table-column>
                 <el-table-column prop="工作名称" label="工作名称"></el-table-column>
-                <el-table-column prop="终止里程" label="管线名称">
-                </el-table-column>
-                <el-table-column prop="终止里程" label="起始里程">
-                </el-table-column>
+                <el-table-column prop="管线名称" label="管线名称"></el-table-column>
+                <el-table-column prop="管段" label="管段"></el-table-column>
+                <el-table-column prop="起始里程" label="起始里程"></el-table-column>
                 <el-table-column prop="终止里程"  label="终止里程"></el-table-column>
-                <el-table-column prop="计划识别结束时间"  label="计划识别开始时间">
-                </el-table-column>
+                <el-table-column prop="计划识别开始时间"  label="计划识别开始时间"></el-table-column>
                 <el-table-column prop="计划识别结束时间" label="计划识别结束时间"></el-table-column>
                 <el-table-column label="操作" width="180" align="center">
                     <template slot-scope="scope">
