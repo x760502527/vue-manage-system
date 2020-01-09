@@ -101,6 +101,51 @@ export default new Router({
                     path: '/donate',
                     component: () => import(/* webpackChunkName: "donate" */ '../components/page/Donate.vue'),
                     meta: { title: '支持作者' }
+                },
+                {
+                    path: '/sjcj',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/sjcj.vue'),
+                    meta: { title: '数据采集' }
+                },
+                {
+                    path: '/ghgqsb',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/ghgqsb.vue'),
+                    meta: { title: '高后果区识别' }
+                },
+                {
+                    path: '/ghgqsbjh',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/ghgqsbjh.vue'),
+                    meta: { title: '高后果区识别计划' }
+                },
+                {
+                    path: '/ghgqjhcl',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/ghgqjhcl.vue'),
+                    meta: { title: '高后果区计划处理' }
+                },
+                {
+                    path: '/ghgqfztj',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/ghgqfztj.vue'),
+                    meta: { title: '高后果区分值统计' }
+                },
+                {
+                    path: '/fxpj',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/fxpj.vue'),
+                    meta: { title: '风险评价' }
+                },
+                {
+                    path: '/fxpjjh',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/fxpjjh.vue'),
+                    meta: { title: '风险评价计价' }
+                },
+                {
+                    path: '/fxpjdf',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/fxpjdf.vue'),
+                    meta: { title: '风险评价打分' }
+                },
+                {
+                    path: '/fxpjtj',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/fxpjtj.vue'),
+                    meta: { title: '风险评价统计' }
                 }
             ]
         },
