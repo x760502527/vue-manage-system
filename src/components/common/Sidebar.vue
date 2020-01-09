@@ -7,8 +7,8 @@
             background-color="#324157"
             text-color="#bfcbd9"
             active-text-color="#20a0ff"
-            unique-opened
             router
+            :default-openeds="openeds"
         >
             <template v-for="item in items">
                 <template v-if="item.subs">
@@ -57,6 +57,7 @@ import bus from '../common/bus';
 export default {
     data() {
         return {
+            openeds:['ghgqsb','fxpj'],
             collapse: false,
             items: [
                 {
