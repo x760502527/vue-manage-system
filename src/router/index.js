@@ -7,7 +7,7 @@ export default new Router({
     routes: [
         {
             path: '/',
-            redirect: '/dashboard'
+            redirect: '/ghgqsbjh'
         },
         {
             path: '/',
@@ -118,9 +118,14 @@ export default new Router({
                     meta: { title: '高后果区识别计划' }
                 },
                 {
+                    path: '/ghgqsbjhcl',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/page/ghgqsbjhcl.vue'),
+                    meta: { title: '高后果区识别计划处理' }
+                },
+                {
                     path: '/ghgqjhcl',
                     component: () => import(/* webpackChunkName: "donate" */ '../components/page/ghgqjhcl.vue'),
-                    meta: { title: '高后果区计划处理' }
+                    meta: { title: '高后果区工作计划' }
                 },
                 {
                     path: '/ghgqfztj',
@@ -151,8 +156,9 @@ export default new Router({
         },
         {
             path: '/login',
-            component: () => import(/* webpackChunkName: "login" */ '../components/page/Login.vue'),
-            meta: { title: '登录' }
+            redirect: '/ghgqsbjh'
+            /*component: () => import(/!* webpackChunkName: "login" *!/ '../components/page/Login.vue'),
+            meta: { title: '登录' }*/
         },
         {
             path: '*',

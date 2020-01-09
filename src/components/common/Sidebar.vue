@@ -66,8 +66,12 @@ export default {
                             title: '高后果区识别计划'
                         },
                         {
+                            index: 'ghgqsbjhcl',
+                            title: '高后果区识别计划处理'
+                        },
+                        {
                             index: 'ghgqjhcl',
-                            title: '高后果区计划处理',
+                            title: '高后果区工作计划',
                         },
                         {
                             index: 'ghgqfztj',
