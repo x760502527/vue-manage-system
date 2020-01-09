@@ -2,26 +2,19 @@
     <div class=WordSection1 style='layout-grid:15.6pt'>
 
         <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
-               style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
- mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
- .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
-            <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-                <td width="6%" valign=top style='width:6.34%;border:solid windowtext 1.0pt;
-  mso-border-alt:solid windowtext .5pt;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
+               style='width:100.0%;border-collapse:collapse;border:none;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;'>
+            <tr style=''>
+                <td width="6%" valign=top style='background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
   char;mso-layout-grid-align:none'><span style='mso-no-proof:yes'>索引<span
                             lang=EN-US><o:p></o:p></span></span></p>
                 </td>
-                <td width="38%" colspan=6 style='width:38.92%;border:solid windowtext 1.0pt;
-  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
-  solid windowtext .5pt;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
+                <td width="38%" colspan=6 style='width:38.92%;border:border-left:none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
   char;mso-layout-grid-align:none'><span style='mso-no-proof:yes'>指数类别<span
                             lang=EN-US><o:p></o:p></span></span></p>
                 </td>
-                <td width="14%" colspan=2 style='width:14.0%;border:solid windowtext 1.0pt;
-  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
-  solid windowtext .5pt;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
+                <td width="14%" colspan=2 style='width:14.0%;border:border-left:none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
   char;mso-layout-grid-align:none'><span style='mso-no-proof:yes'>项目<span
                             lang=EN-US><o:p></o:p></span></span></p>
@@ -88,11 +81,14 @@
   layout-grid-mode:char;mso-layout-grid-align:none'><span lang=EN-US
                                                           style='font-size:9.0pt;line-height:150%;mso-no-proof:yes'>0~20<o:p></o:p></span></p>
                 </td>
-                <td width="12%" style='width:12.14%;border-top:none;border-left:none;
+                <td  width="12%" style='width:12.14%;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <p class=MsoNormal align=center style='text-align:center;line-height:150%;
+  layout-grid-mode:char;mso-layout-grid-align:none'><span lang=EN-US
+                                                          style='font-size:9.0pt;line-height:150%;mso-no-proof:yes'><o:p></o:p></span></p>
+                    <input style='text-align:center;' v-model="a1">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:2'>
@@ -119,10 +115,7 @@
   layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:
   9.0pt;line-height:150%;mso-no-proof:yes'>非可变因素<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
-                <td width="15%" style='width:15.3%;border-top:none;border-left:none;
-  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+                <td width="15%" style='width:15.3%;border-top:none;border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;line-height:150%;
   layout-grid-mode:char;mso-layout-grid-align:none'><span lang=EN-US
                                                           style='font-size:9.0pt;line-height:150%;mso-no-proof:yes'>0~20<o:p></o:p></span></p>
@@ -131,7 +124,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="a2">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:3'>
@@ -170,7 +163,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="a3">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:4'>
@@ -209,7 +202,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input  style='text-align:center;' v-model="a4">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:5'>
@@ -248,7 +241,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input  style='text-align:center;' v-model="a5">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:6'>
@@ -287,7 +280,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input  style='text-align:center;' v-model="a6">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:7'>
@@ -326,7 +319,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input   style='text-align:center;' v-model="a7">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:8'>
@@ -366,7 +359,7 @@
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;line-height:150%;
-  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:8.0pt;line-height:150%;mso-no-proof:yes'>自动计算<span lang=EN-US><o:p></o:p></span></span></p>
+  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:9.0pt;line-height:150%;mso-no-proof:yes'>{{sum1}}<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
             </tr>
             <tr style='mso-yfti-irow:9'>
@@ -421,7 +414,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b1">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:10'>
@@ -460,7 +453,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b2">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:11'>
@@ -500,7 +493,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b3">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:12'>
@@ -547,7 +540,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b4">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:13'>
@@ -586,7 +579,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b5">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:14'>
@@ -633,7 +626,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b6">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:15'>
@@ -672,7 +665,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b7">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:16'>
@@ -711,7 +704,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b8">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:17'>
@@ -750,7 +743,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b9">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:18'>
@@ -789,7 +782,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b10">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:19'>
@@ -828,7 +821,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b11">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:20'>
@@ -867,7 +860,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b12">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:21'>
@@ -907,7 +900,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b13">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:22'>
@@ -946,7 +939,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b14">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:23'>
@@ -985,7 +978,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="b15">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:24'>
@@ -1025,7 +1018,7 @@
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;line-height:150%;
-  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:8.0pt;line-height:150%;mso-no-proof:yes'>自动计算<span lang=EN-US><o:p></o:p></span></span></p>
+  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:9.0pt;line-height:150%;mso-no-proof:yes'>{{sum2}}<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
             </tr>
             <tr style='mso-yfti-irow:25'>
@@ -1072,7 +1065,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="c1">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:26'>
@@ -1111,7 +1104,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="c2">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:27'>
@@ -1150,7 +1143,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="c3">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:28'>
@@ -1189,7 +1182,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="c4">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:29'>
@@ -1228,7 +1221,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="c5">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:30'>
@@ -1267,7 +1260,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="c6">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:31'>
@@ -1307,7 +1300,7 @@
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;line-height:150%;
-  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:8.0pt;line-height:150%;mso-no-proof:yes'>自动计算<span lang=EN-US><o:p></o:p></span></span></p>
+  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:9.0pt;line-height:150%;mso-no-proof:yes'>{{sum3}}<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
             </tr>
             <tr style='mso-yfti-irow:32'>
@@ -1362,7 +1355,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d1">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:33'>
@@ -1402,7 +1395,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d2">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:34'>
@@ -1441,7 +1434,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d3">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:35'>
@@ -1480,7 +1473,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d4">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:36'>
@@ -1519,7 +1512,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d5">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:37'>
@@ -1566,7 +1559,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d6">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:38'>
@@ -1605,7 +1598,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d7">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:39'>
@@ -1644,7 +1637,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d8">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:40'>
@@ -1683,7 +1676,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d9">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:41'>
@@ -1722,7 +1715,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d10">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:42'>
@@ -1761,7 +1754,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d11">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:43'>
@@ -1808,7 +1801,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d12">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:44'>
@@ -1848,7 +1841,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d13">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:45'>
@@ -1887,7 +1880,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d14">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:46'>
@@ -1926,7 +1919,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d15">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:47'>
@@ -1965,7 +1958,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d16">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:48'>
@@ -2004,7 +1997,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d17">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:49'>
@@ -2043,7 +2036,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d18">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:50'>
@@ -2090,7 +2083,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d19">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:51'>
@@ -2129,7 +2122,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d20">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:52'>
@@ -2168,7 +2161,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="d21">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:53'>
@@ -2208,7 +2201,7 @@
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;line-height:150%;
-  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:8.0pt;line-height:150%;mso-no-proof:yes'>自动计算<span lang=EN-US><o:p></o:p></span></span></p>
+  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:9.0pt;line-height:150%;mso-no-proof:yes'>{{sum4}}<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
             </tr>
             <tr style='mso-yfti-irow:54'>
@@ -2234,7 +2227,7 @@
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;line-height:150%;
-  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:8.0pt;line-height:150%;mso-no-proof:yes'>自动计算<span lang=EN-US><o:p></o:p></span></span></p>
+  layout-grid-mode:char;mso-layout-grid-align:none'><span style='font-size:9.0pt;line-height:150%;mso-no-proof:yes'>{{sumsum}}<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
             </tr>
             <tr style='mso-yfti-irow:55'>
@@ -2319,7 +2312,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="f1">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:57'>
@@ -2356,7 +2349,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="f2">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:58'>
@@ -2393,7 +2386,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="f3">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:59'>
@@ -2430,7 +2423,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="f4">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:60'>
@@ -2455,8 +2448,8 @@
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
-  char;mso-layout-grid-align:none'><span style='font-size:8.0pt;mso-no-proof:
-  yes'>自动计算</span><span lang=EN-US style='font-size:10.5pt;mso-no-proof:yes'><o:p></o:p></span></p>
+  char;mso-layout-grid-align:none'><span style='font-size:9.0pt;mso-no-proof:
+  yes'>{{sum5}}</span><span lang=EN-US style='font-size:10.5pt;mso-no-proof:yes'><o:p></o:p></span></p>
                 </td>
             </tr>
             <tr style='mso-yfti-irow:61'>
@@ -2488,7 +2481,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="g1">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:62'>
@@ -2526,7 +2519,7 @@
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <input>
+                    <input style='text-align:center;' v-model="g2">
                 </td>
             </tr>
             <tr style='mso-yfti-irow:63'>
@@ -2552,8 +2545,8 @@
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
-  char;mso-layout-grid-align:none'><span style='font-size:8.0pt;mso-no-proof:
-  yes'>自动计算<span lang=EN-US><o:p></o:p></span></span></p>
+  char;mso-layout-grid-align:none'><span style='font-size:9.0pt;mso-no-proof:
+  yes'>{{sum6}}<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
             </tr>
             <tr style='mso-yfti-irow:64'>
@@ -2571,7 +2564,7 @@
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
   char;mso-layout-grid-align:none'><span style='font-size:8.0pt;mso-no-proof:
-  yes'>自动计算<span lang=EN-US><o:p></o:p></span></span></p>
+  yes'>{{sum7}}<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
             </tr>
             <tr style='mso-yfti-irow:65;mso-yfti-lastrow:yes'>
@@ -2579,7 +2572,7 @@
   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
-  char;mso-layout-grid-align:none'><span style='font-size:10.5pt;mso-no-proof:
+  char;mso-layout-grid-align:none'><span style='font-size:9.0pt;mso-no-proof:
   yes'>相对风险评估值<span lang=EN-US> = </span>分数和<span lang=EN-US> / </span>泄漏影响系数<span
                             lang=EN-US><o:p></o:p></span></span></p>
                 </td>
@@ -2588,8 +2581,8 @@
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
-  char;mso-layout-grid-align:none'><span style='font-size:8.0pt;mso-no-proof:
-  yes'>自动计算<span lang=EN-US><o:p></o:p></span></span></p>
+  char;mso-layout-grid-align:none'><span style='font-size:9.0pt;mso-no-proof:
+  yes'>{{sum8}}<span lang=EN-US><o:p></o:p></span></span></p>
                 </td>
             </tr>
             <![if !supportMisalignedColumns]>
@@ -2621,6 +2614,12 @@
         name: 'fxpjdf',
         data() {
             return {
+                a1:0,a2:0,a3:0,a4:0,a5:0,a6:0,a7:0,
+                b1:0,b2:0,b3:0,b4:0,b5:0,b6:0,b7:0,b8:0,b9:0,b10:0,b11:0,b12:0,b13:0,b14:0,b15:0,
+                c1:0,c2:0,c3:0,c4:0,c5:0,c6:0,
+                d1:0,d2:0,d3:0,d4:0,d5:0,d6:0,d7:0,d8:0,d9:0,d10:0,d11:0,d12:0,d13:0,d14:0,d15:0,d16:0,d17:0,d18:0,d19:0,d20:0,d21:0,
+                f1:0,f2:0,f3:0,f4:0,
+                g1:0,g2:0,
                 query: {
                     address: '',
                     name: '',
@@ -2640,6 +2639,43 @@
                 idx: -1,
                 id: -1
             };
+        },
+        computed:{
+            sum1(){
+              return parseInt(this.a1) +  parseInt(this.a2) +  parseInt(this.a3) + parseInt(this.a4) +  parseInt(this.a5) + parseInt(this.a6) +  parseInt(this.a7)
+          },
+            sum2(){
+                return parseInt(this.b1) +  parseInt(this.b2) +  parseInt(this.b3) + parseInt(this.b4) +  parseInt(this.b5) + parseInt(this.b6) +  parseInt(this.b7) +  parseInt(this.b8) +  parseInt(this.b9)
+                    +  parseInt(this.b10) +  parseInt(this.b11) +  parseInt(this.b12) +  parseInt(this.b13) +  parseInt(this.b14) +  parseInt(this.b15)
+            },
+            sum3(){
+                return parseInt(this.c1) +  parseInt(this.c2) +  parseInt(this.c3) + parseInt(this.c4) +  parseInt(this.c5) +  parseInt(this.c6)
+            },
+            sum4(){
+                return parseInt(this.d1) +  parseInt(this.d2) +  parseInt(this.d3) + parseInt(this.d4) +  parseInt(this.d5) + parseInt(this.d6) +  parseInt(this.d7) +  parseInt(this.d8)
+                    +  parseInt(this.d9) +  parseInt(this.d10) +  parseInt(this.d11) +  parseInt(this.d12) +  parseInt(this.d13) +  parseInt(this.d14) +  parseInt(this.d15) +  parseInt(this.d16)
+                    +  parseInt(this.d17) +  parseInt(this.d18) +  parseInt(this.d19) +  parseInt(this.d20) +  parseInt(this.d21)
+
+            },
+            sumsum(){
+                return this.sum1 + this.sum2 + this.sum3 + this.sum4
+            },
+            sum5(){
+                return parseInt(this.f1) +  parseInt(this.f2) +  parseInt(this.f3) + parseInt(this.f4)
+
+            },
+            sum6(){
+                return parseInt(this.g1) /  parseInt(this.g2)
+
+            },
+            sum7(){
+                return this.sum5 / this.sum6
+
+            },
+            sum8(){
+                return this.sumsum / this.sum7
+
+            }
         },
         created() {
             this.getData();

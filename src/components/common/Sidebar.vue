@@ -73,8 +73,8 @@ export default {
                             title: '高后果区识别计划处理'
                         },
                         {
-                            index: 'ghgqjhcl',
-                            title: '高后果区工作计划',
+                            index: 'ghgqsb',
+                            title: '高后果区评分标准',
                         },
                         {
                             index: 'ghgqfztj',
@@ -88,7 +88,6 @@ export default {
                     title: '风险评价',
                     subs: [
                         {
-                            icon: 'el-icon-lx-copy',
                             index: 'fxpjjh',
                             title: '风险评价计划'
                         },
