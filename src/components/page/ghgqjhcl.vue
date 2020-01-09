@@ -36,7 +36,7 @@
                 </el-table-column>
                 <el-table-column prop="管段" label="管段">
                 </el-table-column>
-                <el-table-column prop="计划识别开始时间"  label="终止里程"></el-table-column>
+                <el-table-column prop="计划识别开始时间"  label="计划识别开始时间"></el-table-column>
                 <el-table-column prop="计划识别结束时间"  label="计划识别开始时间">
                 </el-table-column>
             </el-table>
@@ -180,7 +180,6 @@
             // 获取 easy-mock 的模拟数据
             getData() {
                 fetchData(process.env.BASE_URL + '/高后果区工作计划.json',this.query).then(res => {
-                    console.log(res);
                     this.tableData = res.list;
                     this.tableDataR = res.list;
                     this.pageTotal = res.pageTotal || 50;
