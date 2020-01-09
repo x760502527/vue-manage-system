@@ -23,18 +23,21 @@
                                 :index="subItem.index"
                                 :key="subItem.index"
                             >
-                                <template slot="title">{{ subItem.title }}</template>
+                                <template slot="title">
+                                    <i :class="subItem.icon"></i>
+                                    <span slot="title">{{ subItem.title }}</span>
+                                </template>
                                 <el-menu-item
                                     v-for="(threeItem,i) in subItem.subs"
                                     :key="i"
                                     :index="threeItem.index"
-                                >{{ threeItem.title }}</el-menu-item>
+                                > <i :class="threeItem.icon"></i>{{ threeItem.title }}</el-menu-item>
                             </el-submenu>
                             <el-menu-item
                                 v-else
                                 :index="subItem.index"
                                 :key="subItem.index"
-                            >{{ subItem.title }}</el-menu-item>
+                            > <i :class="subItem.icon"></i>{{ subItem.title }}</el-menu-item>
                         </template>
                     </el-submenu>
                 </template>
@@ -85,6 +88,7 @@ export default {
                     title: '风险评价',
                     subs: [
                         {
+                            icon: 'el-icon-lx-copy',
                             index: 'fxpjjh',
                             title: '风险评价计划'
                         },
