@@ -2,19 +2,19 @@
     <div class=WordSection1 style='layout-grid:15.6pt'>
 
         <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
-               style='width:100.0%;border-collapse:collapse;border:none;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;'>
+               style='width:100.0%;border:solid windowtext 1.0pt;border-collapse:collapse;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;'>
             <tr style=''>
                 <td width="6%" valign=top style='background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
   char;mso-layout-grid-align:none'><span style='mso-no-proof:yes'>索引<span
                             lang=EN-US><o:p></o:p></span></span></p>
                 </td>
-                <td width="38%" colspan=6 style='width:38.92%;border:border-left:none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
+                <td width="38%" colspan=6 style='width:38.92%;border:solid windowtext 1.0pt;border:border-left:none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
   char;mso-layout-grid-align:none'><span style='mso-no-proof:yes'>指数类别<span
                             lang=EN-US><o:p></o:p></span></span></p>
                 </td>
-                <td width="14%" colspan=2 style='width:14.0%;border:border-left:none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
+                <td width="14%" colspan=2 style='width:14.0%;border:solid windowtext 1.0pt;border-left:none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
                     <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
   char;mso-layout-grid-align:none'><span style='mso-no-proof:yes'>项目<span
                             lang=EN-US><o:p></o:p></span></span></p>
