@@ -4,15 +4,11 @@
         <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
                style='width:100.0%;border-collapse:collapse;border:none'>
             <tr>
-                <td width="9%" style='width:9.56%;border:solid windowtext 1.0pt;background:
-  #8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <p class=MsoNormal align=center style='text-align:center;line-height:150%;
-  layout-grid-mode:char'><span style='font-size:10.5pt;line-height:150%'>分类</span></p>
+                <td width="9%" style='width:9.56%;border:solid windowtext 1.0pt;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
+                    <p class=MsoNormal align=center style='text-align:center;line-height:150%;layout-grid-mode:char'><span style='font-size:10.5pt;line-height:150%'>分类</span></p>
                 </td>
-                <td width="26%" style='width:26.62%;border:solid windowtext 1.0pt;border-left:
-  none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
-                    <p class=MsoNormal align=center style='text-align:center;line-height:150%;
-  layout-grid-mode:char'><span style='font-size:10.5pt;line-height:150%'>识别对象</span></p>
+                <td width="26%" style='width:26.62%;border:solid windowtext 1.0pt;border-left:none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
+                    <p class=MsoNormal align=center style='text-align:center;line-height:150%;layout-grid-mode:char'><span style='font-size:10.5pt;line-height:150%'>识别对象</span></p>
                 </td>
                 <td width="31%" style='width:31.62%;border:solid windowtext 1.0pt;border-left:
   none;background:#8DB3E2;padding:0cm 5.4pt 0cm 5.4pt'>
